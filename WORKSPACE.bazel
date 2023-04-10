@@ -1,0 +1,36 @@
+workspace(name = "submarine")
+
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository", "new_git_repository")
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
+# Foreign CC
+http_archive(
+    name = "rules_foreign_cc",
+    # TODO: Get the latest sha256 value from a bazel debug message or the latest
+    #       release on the releases page: https://github.com/bazelbuild/rules_foreign_cc/releases
+    #
+    # sha256 = "...",
+    strip_prefix = "rules_foreign_cc-30fdd1193582f81f3eceb0c4505008a99fe15686",
+    url = "https://github.com/bazelbuild/rules_foreign_cc/archive/30fdd1193582f81f3eceb0c4505008a99fe15686.tar.gz",
+)
+
+load("@rules_foreign_cc//foreign_cc:repositories.bzl", "rules_foreign_cc_dependencies")
+
+rules_foreign_cc_dependencies()
+
+http_archive(
+    name = "com_github_google_rules_install",
+    urls = [
+        "https://github.com/google/bazel_rules_install/releases/download/0.4/bazel_rules_install-0.4.tar.gz",
+    ],
+    sha256 = "ac2c9c53aa022a110273c0e510d191a4c04c6adafefa069a5eeaa16313edc9b9",
+    strip_prefix = "bazel_rules_install-0.4",
+)
+
+load("@com_github_google_rules_install//:deps.bzl", "install_rules_dependencies")
+
+install_rules_dependencies()
+
+load("@com_github_google_rules_install//:setup.bzl", "install_rules_setup")
+
+install_rules_setup()
