@@ -11,7 +11,8 @@ cc_test(
              "-lgflags",
              "-ldouble-conversion",
              "-lboost_context",
-             "-lfmt"],
+             "-lfmt",
+             "-liberty"],
     deps = [
          "@gtest//:gtest_main",
          "@folly//:folly"],
