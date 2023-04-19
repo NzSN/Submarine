@@ -1,0 +1,4 @@
+g++
+-Isrc
+-Ithird_party/folly
+-Ithird_party/googletest/googletest/include
