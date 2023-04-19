@@ -2,6 +2,17 @@
 cc_test(
     name = "hello",
     srcs = ["test_hello.cc"],
-    copts = ["-std=c++2a"],
-    deps = ["@gtest//:gtest_main"],
+    copts = [
+          "-std=c++2a",
+          "-Iexternal/folly"],
+    linkopts = [
+             "-levent",
+             "-lglog",
+             "-lgflags",
+             "-ldouble-conversion",
+             "-lboost_context",
+             "-lfmt"],
+    deps = [
+         "@gtest//:gtest_main",
+         "@folly//:folly"],
 )
