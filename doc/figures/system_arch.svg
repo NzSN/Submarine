@@ -14,6 +14,7 @@
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -26,14 +27,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="1.3266288"
-     inkscape:cx="400.26269"
-     inkscape:cy="175.63316"
-     inkscape:window-width="1583"
-     inkscape:window-height="1130"
-     inkscape:window-x="2240"
-     inkscape:window-y="622"
+     showgrid="true"
+     inkscape:zoom="4"
+     inkscape:cx="220.375"
+     inkscape:cy="511.375"
+     inkscape:window-width="2213"
+     inkscape:window-height="1481"
+     inkscape:window-x="3741"
+     inkscape:window-y="828"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -44,23 +45,70 @@
      id="defs2">
     <marker
        style="overflow:visible"
-       refX="-3"
+       id="marker11233"
+       refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="EmptyDiamond"
-       id="EmptyDiamond"
-       markerWidth="13.637"
-       markerHeight="13.637"
-       viewBox="0 0 7.6367532 7.6367533"
+       inkscape:stockid="X"
+       markerWidth="6.7071066"
+       markerHeight="6.7071066"
+       viewBox="0 0 6.7071068 6.7071068"
        inkscape:isstock="true"
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         transform="scale(0.45)"
-         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:2"
-         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
-         id="path108" />
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M -3,3 3,-3 M 3,3 -3,-3"
+         id="path11231" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="marker10904"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="X"
+       markerWidth="6.7071066"
+       markerHeight="6.7071066"
+       viewBox="0 0 6.7071068 6.7071068"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M -3,3 3,-3 M 3,3 -3,-3"
+         id="path10902" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="X"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="X"
+       markerWidth="6.7071066"
+       markerHeight="6.7071066"
+       viewBox="0 0 6.7071068 6.7071068"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M -3,3 3,-3 M 3,3 -3,-3"
+         id="path12054" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10048">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop10044" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop10046" />
+    </linearGradient>
     <marker
        style="overflow:visible"
        id="marker6182"
@@ -99,120 +147,129 @@
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path135" />
     </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10048"
+       id="linearGradient10050"
+       x1="29.735145"
+       y1="165.4853"
+       x2="34.602387"
+       y2="165.4853"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#2ad4ff;stroke:#000000;stroke-width:0.63107"
+       style="fill:#2ad4ff;stroke:#000000;stroke-width:0.695187"
        id="rect184"
-       width="53.019585"
-       height="49.910133"
-       x="42.646271"
-       y="39.502186"
+       width="64.423286"
+       height="49.846016"
+       x="31.210508"
+       y="39.534245"
        inkscape:export-filename="system_arch.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-size:5.5654px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.604548"
-       x="44.029896"
+       x="33.359837"
        y="44.69656"
        id="text398"><tspan
          sodipodi:role="line"
          id="tspan396"
-         x="44.029896"
+         x="33.359837"
          y="44.69656"
          style="stroke-width:0.604548">Server</tspan></text>
     <rect
-       style="fill:#00aad4;stroke:#000000;stroke-width:0.358601"
+       style="fill:#00aad4;stroke:#000000;stroke-width:0.437266"
        id="rect2100"
-       width="15.654218"
-       height="25.526009"
-       x="77.634438"
-       y="45.687614" />
+       width="14.578351"
+       height="40.754391"
+       x="65.308464"
+       y="45.726948" />
     <text
        xml:space="preserve"
        style="font-size:2.43572px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="79.467949"
-       y="59.931385"
+       x="66.903206"
+       y="66.61264"
        id="text2104"><tspan
          sodipodi:role="line"
          id="tspan2102"
          style="stroke-width:0.264583"
-         x="79.467949"
-         y="59.931385">Encryptor</tspan></text>
+         x="66.903206"
+         y="66.61264">Encryptor</tspan></text>
     <rect
        style="fill:#00aad4;fill-opacity:1;stroke:#000000;stroke-width:0.499999"
        id="rect4597"
        width="29.615383"
        height="11.705128"
-       x="45.974358"
+       x="33.609055"
        y="46.040371" />
     <rect
        style="fill:#00aad4;fill-opacity:1;stroke:#000000;stroke-width:0.499999"
        id="rect4597-9"
        width="29.615383"
        height="11.705128"
-       x="45.833332"
+       x="33.468029"
        y="60.006916" />
     <rect
        style="fill:#00aad4;fill-opacity:1;stroke:#000000;stroke-width:0.499999"
        id="rect4597-9-8-1"
        width="29.615383"
        height="11.705128"
-       x="45.833336"
+       x="33.468033"
        y="74.57457" />
     <text
        xml:space="preserve"
        style="font-size:2.43572px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="56.410255"
+       x="44.044952"
        y="52.950623"
        id="text5084"><tspan
          sodipodi:role="line"
          id="tspan5082"
-         x="56.410255"
+         x="44.044952"
          y="52.950623"
          style="stroke-width:0.264583">Room</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.43572px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="56.833332"
+       x="44.468029"
        y="66.705635"
        id="text5110"><tspan
          sodipodi:role="line"
          id="tspan5108"
-         x="56.833332"
+         x="44.468029"
          y="66.705635"
          style="stroke-width:0.264583">User</tspan></text>
     <rect
-       style="fill:#00aad4;fill-opacity:1;stroke:#000000;stroke-width:0.305418"
+       style="fill:#00aad4;fill-opacity:1;stroke:#000000;stroke-width:0.48855"
        id="rect5242"
-       width="15.989453"
-       height="12.007229"
-       x="77.466812"
-       y="74.381859" />
+       width="12.116674"
+       height="40.543507"
+       x="81.646904"
+       y="45.853737" />
     <text
        xml:space="preserve"
-       style="font-size:2.43572px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="79.679489"
-       y="81.496574"
+       style="font-size:2.11343px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.229573"
+       x="82.272202"
+       y="66.254364"
        id="text5246"><tspan
          sodipodi:role="line"
          id="tspan5244"
-         x="79.679489"
-         y="81.496574"
-         style="stroke-width:0.264583">Transport</tspan></text>
+         x="82.272202"
+         y="66.254364"
+         style="stroke-width:0.229573">Connector</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.43572px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="57.397438"
+       x="45.032135"
        y="81.555336"
        id="text5495"><tspan
          sodipodi:role="line"
          id="tspan5493"
-         x="57.397438"
+         x="45.032135"
          y="81.555336"
          style="stroke-width:0.264583">Core</tspan></text>
     <rect
@@ -430,7 +487,7 @@
          id="tspan2160-9-6"
          style="stroke-width:0.264583"
          x="128.33835"
-         y="66.805481">Transport</tspan></text>
+         y="66.805481">Connector</tspan></text>
     <rect
        style="fill:#87decd;fill-opacity:1;stroke:#000000;stroke-width:0.585675"
        id="rect5552-4-3"
@@ -493,58 +550,113 @@
        inkscape:export-xdpi="172.68082"
        inkscape:export-ydpi="172.68082" />
     <rect
-       style="fill:#87decd;fill-opacity:1;stroke:#000000;stroke-width:0.210526"
-       id="rect6322"
-       width="37.385384"
-       height="11.016316"
-       x="90.057983"
-       y="163.33249"
-       inkscape:export-filename="room_user.png"
-       inkscape:export-xdpi="155.20566"
-       inkscape:export-ydpi="155.20566" />
-    <text
-       xml:space="preserve"
-       style="font-size:4.19917px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.456139"
-       x="102.60661"
-       y="170.03745"
-       id="text6328"><tspan
-         sodipodi:role="line"
-         id="tspan6326"
-         x="102.60661"
-         y="170.03745"
-         style="stroke-width:0.456139">User</tspan></text>
-    <rect
-       style="fill:#87decd;fill-opacity:1;stroke:#000000;stroke-width:0.239323"
+       style="fill:#87decd;fill-opacity:1;stroke:#000000;stroke-width:0.527095"
        id="rect6330"
-       width="40.594009"
-       height="14.927348"
-       x="22.647795"
-       y="161.87318" />
+       width="95.950104"
+       height="30.634327"
+       x="9.9776373"
+       y="113.35361"
+       inkscape:export-filename="room_user.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-size:3.85319px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.418557"
-       x="23.775002"
-       y="166.28477"
+       x="10.911098"
+       y="117.62133"
        id="text6334"><tspan
          sodipodi:role="line"
          id="tspan6332"
-         x="23.775002"
-         y="166.28477"
+         x="10.911098"
+         y="117.62133"
          style="stroke-width:0.418557">Room</tspan></text>
+    <rect
+       style="fill:#55d400;stroke:#000000;stroke-width:0.25;stroke-opacity:1"
+       id="rect9755"
+       width="30.813536"
+       height="12.564743"
+       x="15.007886"
+       y="124.70008" />
     <text
        xml:space="preserve"
-       style="font-size:2.89712px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.314703"
-       x="27.635168"
-       y="172.52777"
-       id="text6436"><tspan
+       style="font-size:5.1603px;font-family:'Ubuntu Mono derivative Powerline';-inkscape-font-specification:'Ubuntu Mono derivative Powerline';fill:#22241c;fill-opacity:1;stroke:none;stroke-width:0.417933;stroke-dasharray:none;stroke-opacity:1"
+       x="25.498922"
+       y="132.34892"
+       id="text10019"><tspan
          sodipodi:role="line"
-         id="tspan6434"
-         x="27.635168"
-         y="172.52777"
-         style="stroke-width:0.314703">Cont&lt;User&gt; users;</tspan></text>
+         id="tspan10017"
+         style="fill:#22241c;fill-opacity:1;stroke:none;stroke-width:0.417933;stroke-dasharray:none;stroke-opacity:1"
+         x="25.498922"
+         y="132.34892">User</tspan></text>
+    <rect
+       style="fill:#55d400;stroke:#000000;stroke-width:0.25;stroke-opacity:1"
+       id="rect9755-0"
+       width="30.813536"
+       height="12.564743"
+       x="15.40677"
+       y="153.1702" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.1603px;font-family:'Ubuntu Mono derivative Powerline';-inkscape-font-specification:'Ubuntu Mono derivative Powerline';fill:#22241c;fill-opacity:1;stroke:none;stroke-width:0.417933;stroke-dasharray:none;stroke-opacity:1"
+       x="25.897806"
+       y="160.81905"
+       id="text10019-8"><tspan
+         sodipodi:role="line"
+         id="tspan10017-7"
+         style="fill:#22241c;fill-opacity:1;stroke:none;stroke-width:0.417933;stroke-dasharray:none;stroke-opacity:1"
+         x="25.897806"
+         y="160.81905">User</tspan></text>
+    <rect
+       style="fill:#55d400;stroke:#000000;stroke-width:0.25;stroke-opacity:1"
+       id="rect9755-2"
+       width="30.813536"
+       height="12.564743"
+       x="63.322315"
+       y="124.89953" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.1603px;font-family:'Ubuntu Mono derivative Powerline';-inkscape-font-specification:'Ubuntu Mono derivative Powerline';fill:#22241c;fill-opacity:1;stroke:none;stroke-width:0.417933;stroke-dasharray:none;stroke-opacity:1"
+       x="73.813354"
+       y="132.54837"
+       id="text10019-3"><tspan
+         sodipodi:role="line"
+         id="tspan10017-9"
+         style="fill:#22241c;fill-opacity:1;stroke:none;stroke-width:0.417933;stroke-dasharray:none;stroke-opacity:1"
+         x="73.813354"
+         y="132.54837">User</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.22671px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#EmptyDiamond)"
-       d="M 90.431654,168.98796 H 66.617213"
-       id="path6438" />
+       style="fill:#22241c;fill-opacity:1;stroke:#000000;stroke-width:0.194324;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6182);marker-end:url(#marker6182)"
+       d="M 46.837467,131.14249 H 62.747073"
+       id="path10162" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;font-family:'Ubuntu Mono derivative Powerline';-inkscape-font-specification:'Ubuntu Mono derivative Powerline';fill:#22241c;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1"
+       x="47.582333"
+       y="130.19055"
+       id="text10292"><tspan
+         sodipodi:role="line"
+         id="tspan10290"
+         style="stroke-width:0.2"
+         x="47.582333"
+         y="130.19055">n</tspan></text>
+    <path
+       style="opacity:0.99;fill:#ff80e5;fill-opacity:1;stroke:#000000;stroke-width:0.194;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10904);marker-end:url(#X)"
+       d="M 30.215215,152.26532 V 137.9204"
+       id="path10352" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;font-family:'Ubuntu Mono derivative Powerline';-inkscape-font-specification:'Ubuntu Mono derivative Powerline';opacity:0.99;fill:#ff80e5;fill-opacity:1;stroke:#000000;stroke-width:0.194;stroke-dasharray:none;stroke-opacity:1"
+       x="61.131218"
+       y="130.16695"
+       id="text11173"><tspan
+         sodipodi:role="line"
+         id="tspan11171"
+         x="61.131218"
+         y="130.16695"
+         style="stroke-width:0.194">1</tspan></text>
+    <path
+       style="opacity:0.99;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.194;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker11233)"
+       d="M 30.228645,146.18229 H 81.623957 V 138.1125"
+       id="path11229" />
   </g>
 </svg>

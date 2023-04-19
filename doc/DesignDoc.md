@@ -32,7 +32,7 @@ As the figure showed in [System Architecture](#system-architecture), Server-side
 * User 
 * Core
 * Encryptor
-* Transport
+* Connector
 
 All of these components work together to achieve our gloas that listed in [Goal](#goal). 
 
@@ -40,6 +40,6 @@ User Component and Room components offer **Data Structures** and **Interfaces** 
 
 Core offer basic functionality about network related works, message request and etc.
 
-Encryptor and Transport's responsibilities are encrypt and transfer messages or receive and decrypt messages.
+Encryptor and Connector's responsibilities are encrypt and transfer messages or receive and decrypt messages.
 
 
