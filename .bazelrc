@@ -1,0 +1,3 @@
+# GCC
+startup 
+build --cxxopt=-std=c++20

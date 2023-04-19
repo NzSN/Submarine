@@ -1,0 +1,7 @@
+
+cc_test(
+    name = "hello",
+    srcs = ["test_hello.cc"],
+    copts = ["-std=c++2a"],
+    deps = ["@gtest//:gtest_main"],
+)
